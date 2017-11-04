@@ -1,55 +1,73 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-
-	<title>Travis' Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Travis' Portfolio</title>
 </head>
+
 <body>
-	<div class = "header">
-		<ul class="head">
-			<li class="links"><a href="portfolio.html">Portfolio</a></li>
-			<li class="links"><a href="contact.html">Contact</a></li>
-			<li class="links"><a href="index.html">About</a></li>
-			<li class="me">Travis Roemhild</li>
-		</ul>
-	</div>
-	<div class="content">
-		<div class="about">
+    <div class="container-fluid">
+        <nav class="navbar navbar-default col-sm-12 col-xs-12">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" style="float: left" id="name">Travis Roemhild</a>
+                </div>
+                <div class="collapse navbar-collapse" style="float: right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="col-md-8 col-sm-10 col-xs-10">
+                <h1>Portfolio</h1>
+				<div class="row">
+					<div class="left-pic">
+						<div class="container col-md-6 col-xs-12 col-sm-12">
+							<img src="assets/images/baseball.jpeg" style="width:100%;">
+							<div class="centered"><a href="#baseball" class="banner">Baseball<a></div>
+						</div>
+					</div>
 
-			<p class="ab">Portfolio</p>
-
-			<div class="left-pic">
-				
-				<a href="#Baseball"><h4>Baseball Project</h4></a>
-
+				<div class="right-pic">
+					<div class="container col-md-6 col-xs-12 col-sm-12">
+						<img src="assets/images/rpg.jpeg" style="width:100%;">
+						<div class="centered"><a href="#rpg" class="banner">RPG<a></div>
+					</div>
+				</div>	
 			</div>
-
-			<div class="right-pic">
-
-				<a href="#RPG"><h4>Browser RPG</h4></a>
-				
-			</div>
-			<div class="bot-left-pic">
-				<a href="#Movies"><h4>Movie Trivia</h4></a>
-				
-			</div>
-			<div class="bot-right-pic">
-				<a href="#Music"><h4>Find new Music</h4></a>
-				
+			<div class="row">	
+				<div class="bot-left-pic">
+					<div class="container col-md-6 col-xs-12 col-sm-12">
+						<img src="assets/images/hollywood.jpeg" style="width:100%;">
+						<div class="centered"><a href="#movies" class="banner">Trivia<a></div>
+					</div>
+				</div>
+				<div class="bot-right-pic">
+					<div class="container col-md-6 col-xs-12 col-sm-12">
+						<img src="assets/images/music.jpeg" style="width:100%;">
+						<div class="centered"><a href="#music" class="banner">Music<a></div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="connect">
-			<p class="social">Connect with Me</p>
-			<div class="icon-overview">
-				<a href="https://github.com/troe11" target="_blank"><img src="assets/images/github.png" class="icons"></a>
-				<a href="https://www.linkedin.com/in/travis-roemhild-b1b74a44/" target="_blank"><img src="assets/images/linkedin.png" class="icons"></a>
-				<a href="https://stackoverflow.com/users/8572379/travis-roemhild" target="_blank">
-				<img src="assets/images/stack.png" class="icons"></a>
-				
+		<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="connect">
+					<p class="social">Connect with Me</p>
+					<div class="icon-overview">
+						<a href="https://github.com/troe11" target="_blank"><img src="assets/images/github.png" class="icons"></a>
+						<a href="https://www.linkedin.com/in/travis-roemhild-b1b74a44/" target="_blank"><img src="assets/images/linkedin.png" class="icons"></a>
+						<a href="https://stackoverflow.com/users/8572379/travis-roemhild" target="_blank">
+						<img src="assets/images/stack.png" class="icons"></a>
+						
+					</div>
+				</div>
 			</div>
-		</div>
 	</div>
 	<div class="footer"> 
 		<p id="copyright">&copy;2017 Travis Roemhild</p>

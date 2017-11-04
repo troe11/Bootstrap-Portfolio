@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Travis' Portfolio</title>
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+	<title>About Travis</title>
 </head>
 <body>
-	<div class = "header">
-		<ul class="head">
-			<li class="links"><a href="portfolio.html">Portfolio</a></li>
-			<li class="links"><a href="contact.html">Contact</a></li>
-			<li class="links"><a href="index.html">About</a></li>
-			<li class="me">Travis Roemhild</li>
-		</ul>
-	</div>
-	<div class="content">
-		<div class="about">
-			<p class="ab">About Me</p>
-			<img src="assets/images/profile.jpg" id="luke">
-			<p id="summary">Hello and welcome to my page! Right now, I ask you to bear with me as I am continually updating this site with new projects and information. As you probably have guess, I am new to web development but I am excited to share with you what I have completed thus far! Please use the tabs at the top to navigate my page and use the Contact tab if you would like to reach out to me for any reason. (Constructive critism is greatly appreciated!)</p>
-			<br>
-			<p id="summary">Currently, I teach high school math and have been teaching for the last five years. For the past year, I have been learning to code in my free time. I have experience with Python and its packages such as Pandas, MatLab, SeaBorn, and more. I enjoy Data Science which is a great combination with my love of baseball statistics (see my upcoming Baseball project for more information). I look forward to learning more about web development and deploying these strategies for this webpage. Last but not least, as a UA Wildcat for life, I say: Bear Down!</p>
-		</div>
-		<div class="connect">
-			<p class="social">Connect with Me</p>
-			<div class="icon-overview">
-				<a href="https://github.com/troe11" target="_blank"><img src="assets/images/github.png" class="icons"></a>
-				<a href="https://www.linkedin.com/in/travis-roemhild-b1b74a44/" target="_blank"><img src="assets/images/linkedin.png" class="icons"></a>
-				<a href="https://stackoverflow.com/users/8572379/travis-roemhild" target="_blank">
-				<img src="assets/images/stack.png" class="icons"></a>
-				
+	<div class="container-fluid">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#" style="float: left" id="name">Travis Roemhild</a>
+				</div>
+				<div class="collapse navbar-collapse" style="float: right">
+      				<ul class="nav navbar-nav">
+      					<li class="active"><a href="#">About</a></li>
+      					<li><a href="#">Portfolio</a></li>
+      					<li><a href="#">Contact</a></li>
+      				</ul>
+      			</div>
+			</div>
+		</nav>
+		<br><br>
+		<div class="row">
+			<div class="col-md-8">
+				<h1>About Me</h1>
+					<div class="about">
+						
+						<img src="assets/images/profile.jpg" id="luke" class="col-md-6 col-xs-12 col-sm-12">
+						<p id="summary">Hello and welcome to my page! Right now, I ask you to bear with me as I am continually updating this site with new projects and information. As you probably have guess, I am new to web development but I am excited to share with you what I have completed thus far! Please use the tabs at the top to navigate my page and use the Contact tab if you would like to reach out to me for any reason. (Constructive critism is greatly appreciated!)</p>
+						<br>
+						<p id="summary">Currently, I teach high school math and have been teaching for the last five years. For the past year, I have been learning to code in my free time. I have experience with Python and its packages such as Pandas, MatLab, SeaBorn, and more. I enjoy Data Science which is a great combination with my love of baseball statistics (see my upcoming Baseball project for more information). I look forward to learning more about web development and deploying these strategies for this webpage. Last but not least, as a UA Wildcat for life, I say: Bear Down!</p>
+					</div>
+
+			</div>
+			
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="connect">
+					<p class="social">Connect with Me</p>
+					<div class="icon-overview">
+						<a href="https://github.com/troe11" target="_blank"><img src="assets/images/github.png" class="icons"></a>
+						<a href="https://www.linkedin.com/in/travis-roemhild-b1b74a44/" target="_blank"><img src="assets/images/linkedin.png" class="icons"></a>
+						<a href="https://stackoverflow.com/users/8572379/travis-roemhild" target="_blank">
+						<img src="assets/images/stack.png" class="icons"></a>
+						
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="footer"> 
-		<p id="copyright">&copy;2017 Travis Roemhild</p>
-	</div>
+		
+</div>
+			<div class="footer"> 
+					<p id="copyright" class="col-md-12">&copy;2017 Travis Roemhild</p>
+				</div>
 </body>
 </html>
